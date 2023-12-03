@@ -13,7 +13,7 @@ server:
     
 spring:
   datasource:
-    url: jdbc:postgresql://${prod.db.ip}:5432/crm_addr?currentSchema=addr
+    url: jdbc:postgresql://localhost:5432/crm_addr?currentSchema=addr
     driverClassName: org.postgresql.Driver
     username: postgres
     password: 12345
