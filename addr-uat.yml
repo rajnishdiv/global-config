@@ -27,7 +27,7 @@ spring:
       ddl-auto: update
     show-sql: true
   application:
-    name: address
+    name: addr
 springdoc:
   default-produces-media-type: application/json
   default-consumes-media-type: application/json 
