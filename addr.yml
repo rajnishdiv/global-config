@@ -35,5 +35,5 @@ springdoc:
     
 service:
   title: ${spring.application.name} microservice REST API Documentation(${spring.profiles.active})
-  version: v-1
+  version: v-2
   description: GLOBAL CRM microservice REST API Documentation  
