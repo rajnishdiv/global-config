@@ -16,7 +16,7 @@ spring:
   datasource:
     url: jdbc:postgresql://3.111.113.117:5432/crm_mdm?currentSchema=mdm
     driverClassName: org.postgresql.Driver
-    username: postgres
+    username: app_user
     password: 12345
   h2:
     console:
