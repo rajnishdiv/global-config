@@ -28,6 +28,12 @@ spring:
     show-sql: true
   application:
     name: addr
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+    
 springdoc:
   default-produces-media-type: application/json
   default-consumes-media-type: application/json 
@@ -37,4 +43,10 @@ springdoc:
 service:
   title: ${spring.application.name} microservice REST API Documentation(${spring.profiles.active})
   version: v--3
-  description: GLOBAL CRM microservice REST API Documentation  
+  description: GLOBAL CRM microservice REST API Documentation
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
