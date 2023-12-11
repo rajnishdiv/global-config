@@ -20,9 +20,7 @@ eureka:
     
 spring:  
   application:
-    name: eurekaserver
-  config:
-    import: "optional:configserver:http://localhost:8071/"  
+    name: eurekaserver 
   rabbitmq:
     host: "localhost"
     port: 5672
