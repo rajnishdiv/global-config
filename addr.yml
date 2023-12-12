@@ -28,7 +28,7 @@ spring:
   application:
     name: addr
   config:
-    import: "optional:configserver:http://localhost:8071/"  
+    import: "optional:configserver:http://localhost:8888/"  
   rabbitmq:
     host: "localhost"
     port: 5672
