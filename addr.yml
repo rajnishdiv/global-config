@@ -27,8 +27,8 @@ spring:
     show-sql: true
   application:
     name: addr
-  config:
-    import: "optional:configserver:http://localhost:8071/"  
+#  config:
+#    import: "optional:configserver:http://localhost:8071/"  
   rabbitmq:
     host: "localhost"
     port: 5672
