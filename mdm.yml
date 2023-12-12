@@ -29,7 +29,7 @@ spring:
   application:
     name: mdm
   config:
-    import: "optional:configserver:http://localhost:8071/"  
+    import: "optional:configserver:http://localhost:8888/"  
   rabbitmq:
     host: "localhost"
     port: 5672
