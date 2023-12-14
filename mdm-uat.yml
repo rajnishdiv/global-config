@@ -1,9 +1,8 @@
 logging:
-    level:
-        org:
-            hibernate: ERROR
-            springframework:
-                web: ERROR
+  level:
+    com:
+      global:
+        mdm: DEBUG
 
 
 server:
