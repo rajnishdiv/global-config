@@ -38,7 +38,9 @@ springdoc:
   default-produces-media-type: application/json
   default-consumes-media-type: application/json 
   api-docs:
-    path: /swagger-ui-custom.html
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui-custom.htm
     
 service:
   title: ${spring.application.name} microservice REST API Documentation(${spring.profiles.active})
